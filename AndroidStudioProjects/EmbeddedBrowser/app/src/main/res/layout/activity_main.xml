@@ -8,38 +8,54 @@
 
     <WebView
         android:layout_width="match_parent"
-        android:layout_height="409dp"
+        android:layout_height="417dp"
         android:id="@+id/webView"
-        android:layout_gravity="center|top" />
+        android:layout_gravity="center|bottom" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Back"
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:id="@+id/back"
-        android:layout_gravity="left|bottom" />
+        android:layout_gravity="left|top"
+        android:background="@drawable/arrow180" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Next"
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:id="@+id/forward"
-        android:layout_gravity="left|bottom"
-        android:layout_marginLeft="75dp" />
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/arrow" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Reload"
-        android:id="@+id/reload"
-        android:layout_gravity="left|bottom"
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/reloadBtn"
+        android:layout_gravity="left|top"
+        android:background="@drawable/arrowcircledouble135"
+        android:layout_marginLeft="100dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/closeBtn"
+        android:layout_gravity="right|top"
+        android:background="@android:drawable/ic_delete" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/shareBtn"
+        android:layout_gravity="left|top"
+        android:background="@drawable/shareballoon"
         android:layout_marginLeft="150dp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="X"
-        android:id="@+id/closeBtn"
-        android:layout_gravity="right|bottom" />
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/alertBtn"
+        android:layout_gravity="left|top"
+        android:background="@drawable/books"
+        android:layout_marginLeft="200dp" />
 
 </FrameLayout>
